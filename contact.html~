@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Big Fish Bait</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <!--<script src="script.js"></script> - how to add a js script if you want one-->
+    </head>
+<body>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+             <img src="/home/karin/playground/Big_Fish_Bait/header_image.jpg">
+             <div class="centeredmenu">
+               <ul>
+                  <li><a href="file:///home/karin/playground/Big_Fish_Bait/index.html">Home</a></li>
+                  <li><a href="file:///home/karin/playground/Big_Fish_Bait/about.html">About</a></li>
+                  <li><a href="file:///home/karin/playground/Big_Fish_Bait/contact.html" class="active">Contact</a></li>
+               </ul>
+             </div>
+        </div>
+        <div class="main">
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+    <!-- page content -->
+</body>
+</html>
