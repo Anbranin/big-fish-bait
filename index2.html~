@@ -3,11 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Big Fish Bait</title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet2.css">
         <!--<script src="script.js"></script> - how to add a js script if you want one-->
     </head>
 <body>
-    <div class="wrapper">
         <div class="header">
              <img src="/home/karin/playground/Big_Fish_Bait/header_image.jpg">
              <div class="centeredmenu">
@@ -19,7 +18,7 @@
              </div>
         </div>
         <div class="main">
-            <div class="nicebox">
+            <!--<div class="nicebox">
                 <div class="picbox">
                     <ul>
                         <li><img src="file:///home/karin/playground/Big_Fish_Bait/bloodworms.jpg"></li>
@@ -125,8 +124,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer">
+        <div class="footer">-->
         </div>
-    </div>
 </body>
 </html>

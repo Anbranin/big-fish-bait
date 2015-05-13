@@ -1,0 +1,86 @@
+html, body {
+    background-color:#1d0d0d;         /*#1d0d0d is the color of the background*/
+	margin:0;
+	padding:0;
+	height:100%; /*this makes the html and body take up the whole screen. No, they don't automatically do that, necessarily!*/
+}
+.header{
+    padding:10px;
+    background-color:#1d0; /*#1d0d0d*/
+    width:100%;
+    position:relative;
+    height:275px;
+}
+
+.header li{
+    display:inline;
+	padding:10px;
+}
+.centeredmenu {
+   width:100%;
+   background-color: #AA0000;
+   overflow:hidden;
+   bottom:0%;
+   left:0%;     
+   position:absolute;
+   
+}
+.centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0px;
+   padding:0;
+   position:relative;
+   left:45%;
+   text-align:center;
+   font-family:arial;
+}
+
+.centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+.centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 20px;
+   background:#fff;
+   color:#1d0d0d;
+   text-decoration:none;
+   line-height:1.3em;
+}
+   
+.centeredmenu ul li a:hover {
+   background:#1d0d0d;
+   color:#fff;
+}
+
+.centeredmenu ul li a.active,
+.centeredmenu ul li a.active:hover {
+   color:#fff;
+   background:#1d0d0d;
+   font-weight:bold;
+}
+.container {
+    height:70%;
+    margin-top:20px;
+    background-color:#1d0d0d;
+    position:relative;
+    width:100%;
+}
+.main {
+    background-color:#fff;
+    height:500px;
+    width:90%;
+    margin:0px auto;
+    position:relative;
+    top:100px;
+    border-radius:20px;
+}

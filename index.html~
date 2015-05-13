@@ -72,9 +72,9 @@
 <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
 <table>
 <tr><td><select name="os0">
-	<option value="10 sandworms">10 worms $5.00 USD</option>
-	<option value="30 sandworms">30 worms $10.00 USD</option>
-	<option value="100 sandworms">100 worms $50.00 USD</option>
+	<option value="10 sandworms">10 sandworms $5.00 USD</option>
+	<option value="30 sandworms">30 sandworms $10.00 USD</option>
+	<option value="100 sandworms">100 sandworms $50.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">

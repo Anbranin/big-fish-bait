@@ -3,6 +3,7 @@ html, body {
 	margin:0;
 	padding:0;
 	height:100%; /*this makes the html and body take up the whole screen, allowing us to push the footer to the bottom. No, they don't automatically do that, necessarily!*/
+	z-index:-1;
 }
 .wrapper{ /*need a wrapper to get the footer element to stay down*/
 	min-height:100%;
@@ -93,5 +94,12 @@ html, body {
 .main {
 	margin-top:3%;
 	position:relative;/*positioned this way so I can position the inside divs with absolute positioning*/
-	background-color:#736A4D;
+	z-index:0;
+}
+.nicebox {
+    position:absolute;
+    margin:20px;
+    background-color:white;
+    z-index: 1;
+}
 }
